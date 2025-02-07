@@ -1,0 +1,35 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+}
+
+.stTextInput>div>div>input {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.stMarkdown h2 {
+    color: #4CAF50;
+}
